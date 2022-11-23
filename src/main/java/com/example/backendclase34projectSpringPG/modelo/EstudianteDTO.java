@@ -20,4 +20,8 @@ public class EstudianteDTO {
     public void setApellido(String apellido) {
         this.apellido = apellido;
     }
+
+    public Long getId() {
+        return id;
+    }
 }
